@@ -1,9 +1,12 @@
 <p align="center">
-  <img width="400" height="400" src="/images/jet_news_logo.png">
+  <img width="300" height="300" src="/images/jet_news_logo.png">
 </p>
 <h3 align="center">
   Jet_News is a software that uses Google News API to get all recent tech news, saves them onto a MongoDB database and display all of them separated by Timestamps.
 </h3>
+</br>
+</br>
+</br>
 
 ## About
 
