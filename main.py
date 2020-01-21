@@ -1,14 +1,3 @@
-# initializing
-#newsapi = NewsApiClient(api_key="653957fc61a94fb0b5525cdf0d0755a9")
-
-#all_articles = newsapi.get_top_headlines(
-#                                            q="tech",
-#                                            category="technology",
-#                                            language="en"
-#                                        )
-
-#print(all_articles["totalResults"])
-
 from flask import Flask, render_template
 from newsapi import NewsApiClient
 
@@ -16,21 +5,21 @@ app = Flask(__name__)
 newsapi = NewsApiClient(api_key="653957fc61a94fb0b5525cdf0d0755a9")
 
 def get_articles_on_startups():
-    articles = newsapi.get_top_headlines(
-                                            q="startup",
-                                            category="technology",
-                                            language="en",
-                                        )
+    articles = newsapi.get_everything(
+                                         q="startup",
+                                         language="en",
+                                     )
     list_of_articles = articles["articles"]
+    print(len(list_of_articles))
     return list_of_articles[0], list_of_articles[1], list_of_articles[2]
 
 def get_articles_on_tech():
-    articles = newsapi.get_top_headlines(
-                                            q="tech",
-                                            category="technology",
-                                            language="en",
-                                        )
+    articles = newsapi.get_everything(
+                                         q="tech",
+                                         language="en",
+                                     )
     list_of_articles = articles["articles"]
+    print(len(list_of_articles))
     return list_of_articles[0], list_of_articles[1], list_of_articles[2]
 
 
