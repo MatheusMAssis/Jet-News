@@ -16,10 +16,6 @@
 
 ...
 
-#### > Saving news onto MongoDB database
-
-...
-
 #### > Website display
 
 ...
