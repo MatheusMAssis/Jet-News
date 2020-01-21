@@ -46,26 +46,26 @@
             <div class="row bg-white">
                 <div class="col-12 col-md-8 py-4 text-left"><h1>TECH NEWS</h1>
                     <div class="news-block-main">
-                        <a href="#">
-                            <img src="/static/news_image.jpg" width="100%">
+                        <a href="{{ first_technews_hyperlink }}" target="_blank">
+                            <img src="{{ first_technews_image }}" width="100%" height="400px">
                         </a>
-                        <h1 class="text-left pt-3">NOTICIAS DIÁRIAS SOBRE TECNOLOGIA</h1>
+                        <h2 class="text-left pt-3">{{ first_technews_title }}</h2>
                         <p class="text-justify">
-                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            {{ first_technews_text }}        
                         </p>
                         <hr>
                     </div>
                     <div class="news-block-secondmain">
                         <div class="row">
                             <div class="col-5">
-                                <a href="#">
-                                    <img src="/static/news_image.jpg" width="100%">
+                                <a href="{{ second_technews_hyperlink }}" target="_blank">
+                                    <img src="{{ second_technews_image }}" width="100%" height="200px">
                                 </a>
                             </div>
                             <div class="col-7">
-                                <h1 class="text-left">NOTICIAS DIÁRIAS SOBRE TECNOLOGIA</h1>
+                                <h3 class="text-left">{{ second_technews_title }}</h3>
                                 <p class="text-justify">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+                                    {{ second_technews_text }}
                                 </p>
                             </div>
                         </div>
@@ -74,14 +74,14 @@
                     <div class="news-block-secondmain">
                         <div class="row">
                             <div class="col-5">
-                                <a href="#">
-                                    <img src="/static/news_image.jpg" width="100%">
+                                <a href="{{ third_technews_hyperlink }}" target="_blank">
+                                    <img src="{{ third_technews_image }}" width="100%" height="200px">
                                 </a>
                             </div>
                             <div class="col-7">
-                                <h1 class="text-left">NOTICIAS DIÁRIAS SOBRE TECNOLOGIA</h1>
+                                <h3 class="text-left">{{ third_technews_title }}</h3>
                                 <p class="text-justify">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+                                    {{ third_technews_text }}
                                 </p>
                             </div>
                         </div>
@@ -90,24 +90,24 @@
 
                 <div class="col-12 col-md-4 py-4 text-left"><h1>STARTUPS</h1>
                     <div class="news-block-side">
-                        <a href="#">
-                            <img src="/static/news_image.jpg" class="img-responsive" width="100%">
+                        <a href="{{ first_stupnews_hyperlink }}" target="_blank">
+                            <img src="{{ first_stupnews_image }}" class="img-responsive" width="100%" height="200px">
                         </a>
-                        <h1 class="text-left pt-3">NOTICIAS DIÁRIAS SOBRE TECNOLOGIA</h1>
+                        <h3 class="text-left pt-3">{{ first_stupnews_title }}</h3>
                         <hr>
                     </div>
                     <div class="news-block-side">
-                        <a href="#">
-                            <img src="/static/news_image.jpg"class="img-responsive" width="100%">
+                        <a href="{{ second_stupnews_hyperlink }}" target="_blank">
+                            <img src="{{ second_stupnews_image }}"class="img-responsive" width="100%" height="200px">
                         </a>
-                        <h1 class="text-left pt-3">NOTICIAS DIÁRIAS SOBRE TECNOLOGIA</h1>
+                        <h3 class="text-left pt-3">{{ second_stupnews_title }}</h3>
                         <hr>
                     </div>
                     <div class="news-block-side">
-                        <a href="#">
-                            <img src="/static/news_image.jpg" class="img-responsive" width="100%">
+                        <a href="{{ third_stupnews_hyperlink }}" target="_blank">
+                            <img src="{{ third_stupnews_image }}" class="img-responsive" width="100%" height="200px">
                         </a>
-                        <h1 class="text-left pt-3">NOTICIAS DIÁRIAS SOBRE TECNOLOGIA</h1>
+                        <h3 class="text-left pt-3">{{ third_stupnews_title }}</h3>
                     </div>
                 </div>
             </div>
