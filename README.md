@@ -2,7 +2,7 @@
   <img width="300" height="300" src="/static/jet_news_logo.png">
 </p>
 <h3 align="center">
-  Jet_News is a Flask website that uses Google News API to get all recent tech news and display all of them separated by two categories: techs and startups.
+  Jet_News is a website that uses Flask to host and Google News API to get all recent tech news and display all of them separated by two categories: tech and startups.
 </h3>
 </br>
 </br>
@@ -24,13 +24,17 @@
 
 ...
 
-## Built With
+#### Built With
 
 ...
 
 ## Authors
 
 * **Matheus Assis** - [GitHub](https://github.com/MatheusMAssis)
+
+## Credits
+
+...
 
 ## License
 
