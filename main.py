@@ -1,5 +1,16 @@
-from flask import Flask, render_template
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+from flask import Flask, jsonify, make_response, request,render_template
+from flask_cors import CORS
 from newsapi import NewsApiClient
+
+app = Flask(__name__)
+origins = ["*", "/*","http://127.0.0.1:4200"]
+
+CORS(app, resources={ r'/*': {'origins': origins}}, supports_credentials=True)
+app.config['CORS_HEADERS'] = 'Content-Type'
+
 
 app = Flask(__name__)
 newsapi = NewsApiClient(api_key="653957fc61a94fb0b5525cdf0d0755a9")
@@ -58,4 +69,9 @@ def home():
                           )
 
 if __name__ == "__main__":
-    app.run()
+    # app.run()
+    
+    # dev
+    # app.run(use_reloader=False, port=5000)
+    # prod
+    app.run(host='0.0.0.0')
