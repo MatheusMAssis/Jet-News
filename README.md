@@ -1,7 +1,5 @@
 <p align="center">
-  <img width="300" height="300" src="/static/jet_news_logo.png" href="http://jet-news.herokuapp.com/">
-  <p>click on the logo to visit Jet_News
-  </p>
+  <img width="300" height="300" src="/static/jet_news_logo.png">
 </p>
 <h3 align="center">
   Jet_News is a website that uses Flask to host and Google News API to get all recent tech news and display all of them separated by two categories: tech and startups.
@@ -11,7 +9,7 @@
 </br>
 
 ## About
-
+[JET_NEWS](http://jet-news.herokuapp.com/)
 ...
 
 #### > Getting News from Google API
