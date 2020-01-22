@@ -27,8 +27,14 @@ def get_articles_keyWord():
 
 #### > Website display
   In order to have a good template, I was inspired by famous news websites. I also used Bootstrap to keep everything responsive, making it possible to use my website on the cellphone or on the computer.
+<p align="center">
+  <img width="600" height="450" src="/static/jet_news_principal.png">
+  <img width="200" height="450" src="/static/jet_news_cellphone.png">
+</p>
 
-#### Built With
+</br>
+
+## Built With
 * [Python](https://www.python.org/)
 * [Flask](https://palletsprojects.com/p/flask/)
 * [News API](https://newsapi.org/)
