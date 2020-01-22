@@ -3,7 +3,7 @@
 </p>
 <h3 align="center">
   Jet_News is a website that uses Flask to host and Google News API to get all recent tech news and display all of them separated by two categories: tech and startups, and Bootstrap to create a responsive layout. It uses Docker to create a properly deployment folder and uses Heroku to host the website on the cloud.
-  </br></br>Also, it has been deployed and you can have a look clicking <a href="http://jet-news.herokuapp.com">here</a>.
+  </br></br>Click <a href="http://jet-news.herokuapp.com">here</a> to check Jet_News.
 </h3>
 <hr>
 
