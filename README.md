@@ -2,11 +2,10 @@
   <img width="300" height="300" src="/static/jet_news_logo.png">
 </p>
 <h3 align="center">
-  Jet_News is a website that uses Flask to host and Google News API to get all recent tech news and display all of them separated by two categories: tech and startups.
+  Jet_News is a website that uses Flask to host and Google News API to get all recent tech news and display all of them separated by two categories: tech and startups. 
+  </br>Also, it has been deployed and you can have a loot clicking <a href="http://jet-news.herokuapp.com">here</a>.
 </h3>
-</br>
-</br>
-</br>
+<hr>
 
 ## About
 [JET_NEWS](http://jet-news.herokuapp.com/)
