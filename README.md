@@ -9,7 +9,7 @@
 </br>
 
 ## About
-
+[JET_NEWS](http://jet-news.herokuapp.com/)
 ...
 
 #### > Getting News from Google API
