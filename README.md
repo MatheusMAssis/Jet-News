@@ -11,7 +11,7 @@
   To understand more about creating a responsive template, a deployment system and a functional website, I developed Jet_News. A simple website that gets news from an API and display them through Flask to a Responsive template made with Bootstrap. To deploy it, I used Docker and Heroku.
 
 #### > Getting News from Google API
-  I found a simple API called [News API](https://newsapi.org/) and used it to get the most recent news about Tech and Startups that were written in English. To do this, all I needed was this piece of code, that is inside *main.py*
+  I found a simple API called [News API](https://newsapi.org/) and used it to get the most recent news about Tech and Startups that were written in English. To do this, all I needed was this piece of code, that is inside *main.py*.
 ```python
 from newsapi import NewsApiClient
 newsapi = NewsApiClient(api_key="myKey")
