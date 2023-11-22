@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM python:3.10.13
 COPY . .
 RUN pip install --upgrade pip && pip install -r requirements.txt && rm -rf /root/.cache
 
