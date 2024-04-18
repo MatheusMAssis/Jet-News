@@ -2,5 +2,5 @@ newsapi-python
 
 Flask_Cors==3.0.7
 Flask==1.0.2
-gunicorn==19.9.0
+gunicorn==22.0.0
 gevent==1.4.0
